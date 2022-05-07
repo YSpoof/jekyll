@@ -1,5 +1,23 @@
-body {
-    text-align: center;
-    background-color: black;
-    color:white;
-}
+/* Reseting defaults */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Body general config */
+body { text-align: justify; background-color: black; color:white; padding: 2%; }
+
+ul { list-style: none; }
+a { color: lightblue }
+
+/* Centralizing content */
+.center { width: 60%; margin: 0 20%; }
+
+/* Menu config */
+#menu { margin-bottom: 1%; }
+
+#menu-logo { display: inline; }
+#menu-logo a { display: inline; }
+
+#navigation-menu { display: inline; }
+#navigation-menu ul { display: inline; float: right }
+#navigation-menu ul li { display: inline; }
+
+.content { margin: 5% 0; }

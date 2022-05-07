@@ -1,3 +1,15 @@
-<body>
-<h1>{{ page.title }}</h1>
-<hr>
+<header id="page-header">
+    <div id="menu">
+        <div id="menu-logo">
+            <a href="{{ '/' | relative_url }}">LightAsHell</a>
+        </div>
+        <nav id="navigation-menu">
+            <ul id="menu-items">
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1>{{ page.title }}</h1>
+    <hr>
+</header>
