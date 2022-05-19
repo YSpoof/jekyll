@@ -21,3 +21,7 @@ a { color: lightblue }
 #navigation-menu ul li { display: inline; }
 
 .content { margin: 5% 0; }
+
+footer {text-align: center;}
+
+.searchbox {text-align: center;}
