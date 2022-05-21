@@ -4,7 +4,6 @@
 /* Body general config */
 body { text-align: justify; background-color: black; color:white; padding: 2%; }
 
-ul { list-style: none; }
 a { color: lightblue }
 
 /* Centralizing content */
@@ -24,4 +23,7 @@ a { color: lightblue }
 
 footer {text-align: center;}
 
-.searchbox {text-align: center;}
+.searchbox { text-align: center; color-scheme: dark;}
+
+ul#posts { margin: 1% 0 0 5%; }
+.post { margin: 2%; }
