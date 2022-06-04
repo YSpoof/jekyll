@@ -10,7 +10,7 @@ a { color: lightblue }
 .center { width: 60%; margin: 0 20%; }
 
 /* Menu config */
-#menu { margin-bottom: 1%; }
+#menu { margin-bottom: 5%; }
 
 #menu-logo { display: inline; }
 #menu-logo a { display: inline; }
@@ -27,3 +27,11 @@ footer {text-align: center;}
 
 ul#posts { margin: 1% 0 0 5%; }
 .post { margin: 2%; }
+
+#togglemenu {display: none; cursor: pointer;}
+@media (max-width: 1000px) {
+    #togglemenu {display: block;}
+    #navigation-menu ul {display: none;}
+    .menuopen #navigation-menu ul {display: block;}
+    .center { width: 100%; margin: 0 }
+}

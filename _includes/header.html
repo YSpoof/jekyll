@@ -5,6 +5,7 @@
             <a href="{{ '/' | relative_url }}">LightAsHell</a>
         </div>
         <nav id="navigation-menu">
+            {% include text-expand.html %}
             <ul id="menu-items">
                 {% for page in pages %}
                     {% if page.title == "Home" or page.title == "Not found" %}
